@@ -1,0 +1,108 @@
+$f16: 16px;
+$f20: 20px;
+$bg: #282828;
+.course-content{
+
+  .course-subheader{
+    font-size: $f16;
+    margin-bottom: 20px;
+  }
+  .el-col{
+    font-size: $f16;   
+    line-height: 22px;
+    margin-bottom: 20px;
+
+    ul{
+      margin-left: 20px;
+      padding-top: 10px;
+      li{
+        font-size: $f16;
+        line-height: 22px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .course-item{
+    margin-bottom: 30px;
+    .help-title{
+      font-size: $f20;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    .item-content{
+      font-size: $f16;
+    }
+    .qrcode-img-item{
+      max-width: 500px;
+      margin: auto;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .course-step{
+    margin-bottom: 20px;
+  }
+}
+
+.course-content,.law-content{
+  background: #fff;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  /* border-radius: 4px; */
+  padding: 30px !important;
+  color: $bg;
+  
+  .com-header{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .img-item{
+    width: 100%;
+  }
+}
+
+.law-content{
+
+  .statement-content{
+
+    .statement-item{
+      text-indent: 32px;
+      line-height: 28px;
+      margin-bottom: 15px;
+      font-size: $f16;
+    }
+    .sub-title{
+      font-size: $f20;
+    }
+  }
+
+  .agreement-title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .agreement-content{
+
+    .content-title{
+      font-size: $f16;
+      margin-bottom: 20px;
+    }
+
+    .item-list{
+      list-style-type: none;
+      margin-bottom: 30px;
+      padding-left: 0;
+    }
+
+    li{
+      font-size: $f16;
+      line-height: 28px;
+      margin-bottom: 10px;
+    }
+  }
+
+}
